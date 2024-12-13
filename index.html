@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jericho's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><button data-target="home" class="active">Home</button></li>
+                <li><button data-target="profile">Profile</button></li>
+                <li><button data-target="family">Family</button></li>
+                <li><button data-target="gallery">Gallery</button></li>
+                <li><button data-target="contact">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content active"">
+            <img id="homeImage" class="image" src="profile.jpg" width="200px" height="200px">
+            <p class="home-text">Hello! Hi! Mabuhay!<br>Looks like you've view my page.<br>I'm Jericho Andrey V. Lagarteja<br>A second year of BSIT at Camarines Norte State College</p>
+        </section>
+
+        <section id="profile" class="content">
+            <img id="profileImage" class="image" src="profile.jpg" width="200px" height="200px">
+            <p class="profile-text">I'm just a simple boy full of curiosity. Born at Labo, Camarines Norte on the 12th Day of September, year 2004. At a very young age, I have a many kinds of dreams I want to achieve. Some of those dreams are the goals I have set for me to fullfil when I grow up. Although, I am still far from achieving those but I believe that as long as I persevere there is nothing I can achieve. Just doing things one step at a time.</p>
+        </section>
+
+        <section id="family" class="content">
+            <div class="parents">
+                <div class="parent">
+                    <img src="Father.jpg" alt="Father" class="profile-picture">
+                    <p>My Father</p>
+                </div>
+                <div class="parent">
+                    <img src="Mother.jpg" alt="Mother" class="profile-picture">
+                    <p>My Mother</p>
+                </div>
+            </div>
+            <div class="children">
+                <div class="child">
+                    <img src="Sister.jpg" alt="Older Sister" class="profile-picture">
+                    <p>My Older Sister</p>
+                </div>
+                <div class="child">
+                    <img src="profile.jpg" alt="Me" class="profile-picture">
+                    <p>Me</p>
+                </div>
+                <div class="child">
+                    <img src="Younger Sister.jpg" alt="Younger Sister" class="profile-picture">
+                    <p>My Younger Sister</p>
+                </div>
+                <div class="child">
+                    <img src="Younger Brother.jpg" alt="Younger Brother" class="profile-picture">
+                    <p>My Younger Brother</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="content">
+            <div class="pictures">
+                <img src="Image 1.jpg" alt="Image 1">
+                <img src="Image 2.jpg" alt="Image 2">
+                <img src="Image 3.jpg" alt="Image 3">
+                <img src="Image 4.jpg" alt="Image 4">
+                <img src="Image 5.jpg" alt="Image 5">
+                <img src="Image 6.jpg" alt="Image 6">
+                <img src="Image 7.jpg" alt="Image 7">
+                <img src="Image 8.jpg" alt="Image 8">
+                <img src="Image 9.jpg" alt="Image 9">
+                <img src="Image 10.jpg" alt="Image 10">
+                <img src="Image 11.jpg" alt="Image 11">
+            </div>
+            <div id="imageView" class="view">
+                <span class="close" id="closeView">&times;</span>
+                <img id="viewImage" src="" alt="Expanded View">
+            </div>
+        </section>
+
+        <section id="contact" class="content">
+            <p class="contact-text">Feel free to contact me through any methods below!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="phone-icon.png" alt="Phone" class="icon">
+                    <p>0985 088 4628/0963 093 2265</p>
+                </div>
+                <div class="contact-item">
+                    <img src="facebook-icon.png" alt="Facebook" class="icon">
+                    <a href="https://www.facebook.com/lagarteja.jericho">Jericho Lagarteja</a>
+                </div>
+                <div class="contact-item">
+                    <img src="gmail-icon.png" alt="Gmail" class="icon">
+                    <p>jericholagarteja@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <img src="location-icon.png" alt="Adress" class="icon">
+                    <p>Purok 5, Mabilo 2, Labo, Camarines Norte</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
